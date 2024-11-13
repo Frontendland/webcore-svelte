@@ -29,7 +29,7 @@
 </Layout>
 
 <style lang="scss">
-	@import 'webcoreui/config';
+	@use 'webcoreui/config' as *;
 
 	p {
 		@include typography(center);
